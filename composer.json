@@ -1,11 +1,20 @@
 {
-    "name": "dev_henry/library",
-    "description": "A Powerful PHP Library that helps to Automate Tasks",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "DevHenry\\": "library/"
-        }
-    },
-    "require": {}
+  "name": "dev_henry/library",
+  "description": "A Powerful PHP Library that helps to Automate Tasks",
+  "type": "project",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "DevHenry\\": "library/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Henry-Oriaku",
+      "email": "horiaku80@gmail.com"
+    }
+  ],
+  "require": {}
 }
